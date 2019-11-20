@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-device-brightness
                    DESC
-  s.homepage     = package['homepage']
+  s.homepage     = "https://github.com/Calvin-Huang/react-native-device-brightness"
   s.authors      = package['author']
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Calvin-Huang/react-native-device-brightness.git", :tag => "#{s.version}" }
